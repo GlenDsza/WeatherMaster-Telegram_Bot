@@ -48,13 +48,13 @@ def weather(update, context):
 def help(update, context):
     """Display the help message."""
     help_message = "Here are the available commands:\n\n"
-    help_message += "-> /start - Start the bot.\n"
-    help_message += "-> /help - Show this message.\n"
     help_message += "-> Name of the City - Get the details of weather for a City.\n"
     help_message += "-> PINCode - Get the details of weather for a PIN Code.\n"
     help_message += "-> Latitude,Longitude - Get the details of weather for a specific co-ordinate.\n"
-    help_message += "-> /stop - To stop the bot.\n"
+    help_message += "-> /start - Start the bot.\n"
+    help_message += "-> /help - Show this message.\n"
     help_message += "-> /contact - Show the developer's contact details.\n"
+    help_message += "-> /stop - To stop the bot.\n"
     update.message.reply_text(help_message)
 
 def contact(update, context):
