@@ -1,5 +1,4 @@
 <img align="left" style="margin-top:25px" width="60" height="60" src="https://drive.google.com/uc?id=1imhWwHeKPSMrHokKQdL4BiQb7yNGLzg_">
-<br>
 
 # WeatherMaster: Telegram Bot
 
